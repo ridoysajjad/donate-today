@@ -45,18 +45,9 @@ p {
     opacity: 0.7;
 }
 
-.bg-image2 {
-    background-image: url(images/water crisis in sudan.jpg);
-    background-size: cover;
-    background-position: center; 
-    height: 100%;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-}
-
-.donate-now-button {
+.donate-now-butt {
     text-decoration: none;
-    background-image: linear-gradient(rgb(34, 255, 0), rgb(75, 195, 161));
+    background-image: linear-gradient(rgb(75, 84, 100), rgb(75, 195, 161));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -219,34 +210,57 @@ p {
 
 #sudan {
     text-align: left;
+    color: white;
     width: 40%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 20px 30px 35px black;
+
+    background-image: url(images/sudan-album.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
 
-#rohingya {
-    background-image: url(images/rohingya.jpg);
-    background-size: cover;
+#rohingya { 
     text-align: left;
+    color: white;
     width: 40%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 20px 30px 35px black;
+
+    background-image: url(images/rohingya-album.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
 
 #africa {
     text-align: left;
+    color: white;
     width: 40%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 10px 20px 25px black;
+    color: black;
+
+    background-image: url(images/africa-album.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 }
 
 .sudan {
