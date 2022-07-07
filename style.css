@@ -1,0 +1,300 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.start {
+    text-align: center;
+    text-size-adjust: 20px;
+    padding: 5%;
+    color: whitesmoke;
+}
+
+.bg-image {
+    background-image: url(images/Kids-in-Needs.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.bg-image2 {
+    background-image: url(images/water crisis in sudan.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.donate-now-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(34, 255, 0), rgb(75, 195, 161));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.donate-now-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(34, 255, 0), rgb(75, 195, 161));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.donate-amount {
+    text-align: center;
+}
+
+.amount {
+    text-align: center;
+    margin: 40px auto;
+}
+
+#amount-1 {
+    font-size: 20px;
+    width: 400px !important;
+    margin: 5px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 210, 210);
+
+}
+
+#amount-2 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 30px;
+    border: rgb(0, 166, 255) solid 3px;
+    color: rgba(50, 5, 56, 0.386);
+    text-decoration: none;
+    background-color: rgb(214, 210, 210);
+}
+
+#amount-3 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 210, 210);
+}
+
+#amount-4 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 210, 210);
+}
+
+#amount-5 {
+    font-size: 20px;
+    margin: 5px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 210, 210);
+}
+
+#hr-tag {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.where-goes {
+    text-align: center;
+}
+
+.donate-food-shelter-healthcare {
+    width: auto;
+    display: flex;
+    margin: 3%;
+}
+
+.food {
+    width: 25%;
+    background-color: rgb(168, 201, 110);
+    text-align: left;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.shelter {
+    width: 25%;
+    background-color: rgb(112, 137, 170);
+    text-align: left;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.healthcare {
+    width: 25%;
+    background-color: rgb(171, 144, 172);
+    text-align: left;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.mission {
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+
+.half-width {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 55px;
+  }
+
+  .half-width img {
+    width: 80%;
+
+  }
+
+  .half-width2 {
+    width: 50%;
+    padding-left: 50px;
+
+  }
+
+  .half-width2 img {
+    width: 80%;
+    padding-right: 5px;
+  }
+  
+  
+
+.see-album {
+    text-align: center;
+}
+
+.albums {
+    width: auto;
+    display: flex;
+    margin: 3%;
+
+}
+
+#sudan {
+    text-align: left;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 20px 30px 35px black;
+}
+
+#rohingya {
+    background-image: url(images/rohingya.jpg);
+    background-size: cover;
+    text-align: left;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 20px 30px 35px black;
+}
+
+#africa {
+    text-align: left;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 25px black;
+}
+
+.sudan {
+    text-align: center;
+}
+
+.rohingya {
+    text-align: center;
+}
+
+.africa {
+    text-align: center;
+}
+
+.email-box {
+    text-align: center;
+    background-color: rgb(158, 104, 156);
+    width: 50%;
+    text-decoration: none;
+    padding: 30px;
+    margin-right: 20%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+#Sub {
+    background-color: rgb(159, 88, 76);
+    border: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -5px;
+    margin-top: 50px;
+
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+}
+
+.footer-head {
+    color: red;
+    padding: 10px;
+}
+
+.footer-text {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
